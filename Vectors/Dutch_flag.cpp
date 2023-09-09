@@ -18,7 +18,7 @@ int main()
         {
             swap(dev[s], dev[e]);
             s++;
-            e--;
+            e--;  
         }
     }
     for (int i = 0; i < dev.size(); i++)
