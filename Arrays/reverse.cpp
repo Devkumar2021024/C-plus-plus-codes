@@ -2,9 +2,11 @@
 using namespace std;
 void reverse(int arr[], int size, int start, int end)
 {
+    // doing row printing in half iterations
     start = 0, end = size-1;
     while (start <= end)
     {
+        // pre defined functio in c++ libraray6 
         swap(arr[start], arr[end]);
         start++;
         end--;
